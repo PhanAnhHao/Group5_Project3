@@ -1,3 +1,5 @@
+package jdice_team5;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
