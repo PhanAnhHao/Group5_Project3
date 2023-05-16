@@ -42,5 +42,10 @@ public class DiceSum extends DieRoll {
 //Missing accents "."
 	return r1.toString() + " & "+r2.toString();
     }
-
+ 
+    
+    
+    
+    
+    
 }
