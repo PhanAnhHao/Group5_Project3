@@ -1,4 +1,5 @@
 import java.util.*;
+
 /*
 JDice: Java Dice Rolling Program
 Copyright (C) 2006 Andrew D. Hilton  (adhilton@cis.upenn.edu)
@@ -20,20 +21,23 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
  */
 
-
-publicclass Roll Result {
+//False declaration
+public class RollResult {
     int total;
     int modifier;
-//    Vector<Integer> rolls;
+//Missing data type declaration for variable  
+    Vector<Integer> rolls;
     private RollResult(int total, 
 		       int modifier,
 		       Vector<Integer> rolls){
-	thistotal=total;
+//Missing accents "."
+	this.total=total;
 	this.modifier=modifier;
 	this.rolls=rolls;
     }
     public RollResult(int bonus) {
-	this.total=bonus
+//Missing accents ";"
+	this.total=bonus;
 	this.modifier=bonus;
 	rolls=new Vector<Integer>();
     }
@@ -58,3 +62,4 @@ publicclass Roll Result {
 
 
 }
+
