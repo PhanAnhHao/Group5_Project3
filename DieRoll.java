@@ -59,6 +59,10 @@ public class DieRoll {
 	    ans=ans+bonus;
 	}
 //Missing accents ";"
+	
+	
+	
+	
 	return ans;
     }
 
