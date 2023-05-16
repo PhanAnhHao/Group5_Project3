@@ -1,3 +1,6 @@
+package jdice_team5;
+
+import java.util.*;
 /*
 JDice: Java Dice Rolling Program
 Copyright (C) 2006 Andrew D. Hilton  (adhilton@cis.upenn.edu)
@@ -18,21 +21,26 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
  */
-
-public class Dice-Sum extends DieRoll {
-    private DieRollr1;
-//    private DieRoll r2;
+//Wrong name class Dice-Sum -> DiceSum
+public class DiceSum extends DieRoll {
+//False declaration
+    private DieRoll r1;
+//Missing data type declaration for variable
+    private DieRoll r2;
     public DiceSum(DieRoll r1,
 		   DieRoll r2) {
+
 	super(0,0,0);
-	this.r1=r1
+	//Missing accents ";" at the end
+	this.r1=r1;
 	this.r2=r2;
     }
     public RollResult makeRoll() {
 	return r1.makeRoll().andThen(r2.makeRoll());
     }
     public String toString() {
-	return r1toString() + " & "+r2.toString();
+//Missing accents "."
+	return r1.toString() + " & "+r2.toString();
     }
 
 }
