@@ -176,5 +176,6 @@ public class JDice {
 	jf.setVisible(true);
 			  
     }
+    //////////////
 
 }
