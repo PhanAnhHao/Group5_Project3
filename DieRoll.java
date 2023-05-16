@@ -1,3 +1,4 @@
+package jdice_team5;
 //False declaration pimport -> import
 import java.util.*;
 /*
